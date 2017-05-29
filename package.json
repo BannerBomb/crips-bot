@@ -1,5 +1,5 @@
 {
-  "name": "sylphy",
+  "name": "Crips Bot",
   "version": "0.3.8",
   "description": "The better Discord bot framework",
   "main": "build/index.js",
@@ -12,7 +12,7 @@
     "node": ">=6.0.0"
   },
   "repository": {
-    "url": "git+https://github.com/pyraxo/sylphy.git",
+    "url": "git+https://github.com/BannerBomb/crips-bot.git",
     "type": "git"
   },
   "keywords": [
@@ -29,7 +29,7 @@
     "middleware",
     "chat"
   ],
-  "author": "pyraxo <pyraxo@pyraxo.moe> (https://pyraxo.moe)",
+  "author": "BannerBomb <BannerBomb55@gmail.com> (https://bbpr0xy.000webhost.com)",
   "license": "AGPL-3.0",
   "dependencies": {
     "eris": "github:abalabahaha/eris#dev"
