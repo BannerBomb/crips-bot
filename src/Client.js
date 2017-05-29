@@ -16,7 +16,7 @@ class Client extends Eris {
    * Creates a new Client instance
    * @arg {Object} options An object containing sylphy's and/or Eris client options
    * @arg {String} options.token Discord bot token
-   * @arg {String} [options.prefix='!'] Default prefix for commands
+   * @arg {String} [options.prefix=':'] Default prefix for commands
    * @arg {String} [options.admins=[]] Array of admin IDs
    * @arg {String} [options.selfbot=false] Option for selfbot mode
    * @arg {String} [options.commands] Relative path to commands folder
@@ -30,7 +30,7 @@ class Client extends Eris {
   constructor (options = {}) {
     super(options.token, options)
     this.selfbot = options.selfbot
-    this.prefix = options.prefix || '!'
+    this.prefix = options.prefix || ':'
     this.suppressWarnings = options.suppressWarnings
     this.noDefaults = options.noDefaults
     this.admins = Array.isArray(options.admins) ? options.admins : []
